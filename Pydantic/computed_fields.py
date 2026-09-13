@@ -19,7 +19,7 @@ class Patient(BaseModel):
         return bmi
 
 
-
+#update patient function
 def update_patient_data(patient: Patient):
 
     print(patient.name)
